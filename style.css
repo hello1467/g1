@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: black;
+  font-family: Arial;
+}
+
+canvas {
+  display: block;
+  background: radial-gradient(circle at center, #111, #000);
+}
+
+#ui {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+  font-size: 18px;
+}
+
+#joystick {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  width: 120px;
+  height: 120px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 50%;
+  touch-action: none;
+}
+
+#stick {
+  width: 60px;
+  height: 60px;
+  background: rgba(255,255,255,0.4);
+  border-radius: 50%;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
